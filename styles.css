@@ -261,7 +261,7 @@ body {
 
 .project-header {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -305,9 +305,19 @@ body {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.features-grid-center {
+    display: flex;
+    justify-content: center;
     margin-bottom: 2rem;
+}
+
+.features-grid-center .feature-item {
+    max-width: 400px;
 }
 
 .feature-item {
@@ -698,6 +708,10 @@ body {
 
     .features-grid {
         grid-template-columns: 1fr;
+    }
+
+    .features-grid-center .feature-item {
+        max-width: 100%;
     }
 
     .footer-content {
