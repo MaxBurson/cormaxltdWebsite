@@ -1,15 +1,17 @@
-# CormaX Website
+# CormaX Ltd - Official Business Website
 
-A modern, responsive website built with HTML, CSS, and JavaScript, ready to be deployed to GitHub Pages.
+Professional business website for CormaX Ltd, a UK-registered mobile app development company. Built with HTML, CSS, and JavaScript, deployed on GitHub Pages.
 
 ## Features
 
-- 🎨 Modern and clean design
+- 🌑 Professional dark theme design
 - 📱 Fully responsive (mobile, tablet, desktop)
 - ⚡ Fast loading and optimized performance
 - 🎯 Smooth scrolling and animations
 - 📧 Contact form with validation
-- 🍔 Mobile-friendly navigation menu
+- 🏢 Complete UK company legal information (Companies Act 2006 compliant)
+- 💼 Featured project showcase (UniSplitr)
+- 🔵 Cyan/blue gradient accent colors matching brand identity
 
 ## Project Structure
 
