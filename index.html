@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CormaX Ltd - Professional Mobile App Development | UK Registered Company">
+    <title>CormaX Ltd - Mobile App Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>CormaX <span class="ltd">Ltd</span></h1>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">CormaX Ltd</h2>
+                <p class="hero-subtitle">Professional Mobile App Development</p>
+                <p class="hero-description">We create innovative mobile applications that solve real-world problems for students and beyond</p>
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Get In Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <p class="about-intro">CormaX Ltd is a UK-registered mobile app development company founded by two friends with complementary skills and a shared vision for creating impactful digital solutions.</p>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="icon">💻</div>
+                        <h3>Development Excellence</h3>
+                        <p>Expert coding and technical implementation, ensuring robust and scalable mobile applications.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="icon">📱</div>
+                        <h3>Marketing & Strategy</h3>
+                        <p>Strategic marketing approach to bring products to market and reach the right audience.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="icon">🤝</div>
+                        <h3>Business Partnership</h3>
+                        <p>Collaborative business management combining technical expertise with market insight.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <div class="project-showcase">
+                <div class="project-header">
+                    <div class="project-logo">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2300d4ff;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230080ff;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M 50 40 L 50 160 Q 50 180 70 180 L 100 180 L 100 40 L 50 40 Z M 150 40 L 150 120 L 120 160 L 120 40 L 150 40 Z' fill='url(%23grad)'/%3E%3C/svg%3E" alt="UniSplitr Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>UniSplitr</h3>
+                        <p class="project-tagline">Modern Student House Companion App</p>
+                    </div>
+                </div>
+                <p class="project-description">UniSplitr is a comprehensive mobile application designed to make shared student living effortless. It combines communication, organization, and expense management into a single, intuitive platform built specifically for students in shared accommodation.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>💬 Group Chat</h4>
+                        <p>Built-in messaging with emoji reactions, message pinning, and forwarding — the central hub for housemate communication.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🗓️ Shared Calendar</h4>
+                        <p>Collaborative scheduling for cleaning duties, rent reminders, maintenance tasks, and social events with optional notifications.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>💸 Bill Splitting</h4>
+                        <p>Track shared expenses with manual entry or AI-assisted receipt scanning. Supports custom splits and payment confirmations.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🤖 Smart Insights</h4>
+                        <p>AI-powered spending pattern analysis, fairer split suggestions, and recurring bill reminders.</p>
+                    </div>
+                </div>
+                <p class="project-footer">Replacing the need for WhatsApp, Google Calendar, and Splitwise — all in one minimal, distraction-free interface.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Mobile App Development</h3>
+                    <p>Native iOS and cross-platform mobile applications built with Swift and modern frameworks.</p>
+                    <ul class="service-features">
+                        <li>iOS Development</li>
+                        <li>Cross-Platform Solutions</li>
+                        <li>App Store Deployment</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive, user-centered interfaces designed for clarity and minimal friction.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Interface Design</li>
+                        <li>Prototyping & Testing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Product Strategy</h3>
+                    <p>End-to-end product development from concept to market launch.</p>
+                    <ul class="service-features">
+                        <li>Market Analysis</li>
+                        <li>Go-to-Market Strategy</li>
+                        <li>Growth & Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>📧 Email: <a href="mailto:unisplitr@gmail.com">unisplitr@gmail.com</a></p>
+                    <p>📍 Registered Office: 4 Sandhurst Close, CR20AD</p>
+                    <p>🇬🇧 Registered in England and Wales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CormaX Ltd</h4>
+                    <p>Professional Mobile App Development</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal Information</h4>
+                    <p><strong>Company Name:</strong> CormaX Ltd</p>
+                    <p><strong>Registered Office:</strong> 4 Sandhurst Close, CR20AD</p>
+                    <p><strong>Country of Registration:</strong> England and Wales</p>
+                    <p><strong>Contact:</strong> <a href="mailto:unisplitr@gmail.com">unisplitr@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CormaX Ltd. All rights reserved. Registered in England and Wales.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
